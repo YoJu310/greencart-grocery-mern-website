@@ -8,7 +8,8 @@ const Footer = () => {
                 <div>
                     <img className="w-34 md:w-32" src={assets.logo} alt="logo" />
                     <p className="max-w-[410px] mt-6">
-                        We deliver fresh groceries and snacks straight to your door. Trusted by thousands, we aim to make your shopping experience simple and affordable.</p>
+                        Fill your cart, not your schedule. Groceries delivered fast, fresh, and easy. 
+                        Trusted by thousands, we aim to make your shopping experience simple and affordable.</p>
                 </div>
                 <div className="flex flex-wrap justify-between w-full md:w-[45%] gap-5">
                     {footerLinks.map((section, index) => (
@@ -26,7 +27,7 @@ const Footer = () => {
                 </div>
             </div>
             <p className="py-4 text-center text-sm md:text-base text-gray-500/80">
-                Copyright {new Date().getFullYear()} © GreatStack.dev All Right Reserved.
+                Copyright {new Date().getFullYear()} © GreenCart. All Right Reserved.
             </p>
         </div>
     );
