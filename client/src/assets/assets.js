@@ -175,6 +175,22 @@ export const footerLinks = [
       { text: "YouTube", url: "#" },
     ],
   },
+
+  {
+    title: "Legal",
+    links: [
+      { text: "Terms & Conditions", url: "/terms-and-conditions" },
+      { text: "Cancellation & Refunds", url: "/cancellation-and-refunds" },
+      { text: "Shipping Policy", url: "/shipping-policy" },
+      { text: "Privacy Policy", url: "/privacy-policy" }
+    ]
+  },
+  {
+    title: "Support",
+    links: [
+      { text: "Contact Us", url: "/contact-us" }
+    ]
+  }
 ];
 
 export const features = [

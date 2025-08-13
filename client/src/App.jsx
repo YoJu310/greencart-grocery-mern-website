@@ -19,6 +19,12 @@ import ProductList from './pages/seller/ProductList';
 import Orders from './pages/seller/Orders';
 import Loading from './components/Loading';
 
+import TermsAndConditions from './pages/TermsAndConditions';
+import CancellationAndRefund from './pages/CancellationAndRefund';
+import ShippingPolicy from './pages/ShipppingPolicy';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import ContactUs from './pages/ContactUs';
+
 const App = () => {
 
   const isSellerPath = useLocation().pathname.includes("seller");
@@ -47,6 +53,13 @@ const App = () => {
             <Route path='product-list' element={<ProductList/>} />
             <Route path='orders' element={<Orders/>} />
           </Route>
+
+          <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+          <Route path="/cancellation-and-refunds" element={<CancellationAndRefund />} />
+          <Route path="/shipping-policy" element={<ShippingPolicy />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/contact-us" element={<ContactUs />} />
+
         </Routes>
       </div>
      {!isSellerPath && <Footer/>}
