@@ -4,7 +4,7 @@ export default function ContactUs() {
       <h1 className="text-2xl font-bold mb-4">Contact Me</h1>
       <p>Email: your.email@example.com</p>
       <p>LinkedIn: <a href="https://linkedin.com/in/your-profile" className="text-blue-500 hover:underline">linkedin.com/in/your-profile</a></p>
-      <p>GitHub: <a href="https://github.com/your-username" className="text-blue-500 hover:underline">github.com/your-username</a></p>
+      <p>GitHub: <a href="https://github.com/YoJu310" className="text-blue-500 hover:underline">github.com/your-username</a></p>
     </div>
   );
 }
